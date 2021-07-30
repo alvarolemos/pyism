@@ -10,5 +10,9 @@ setup(
     author='Álvaro Lemos',
     author_email='alvarolemos@ufmg.br',
     licence='',
-    install_requires='numpy',
+    install_requires=[
+        'numpy==1.19.5',
+        'tensorflow==2.5.0',
+        'scikit-multiflow==0.5.3',
+    ],
 )
