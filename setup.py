@@ -9,5 +9,5 @@ setup(
     package_dir={'': 'src'},
     author='Álvaro Lemos',
     author_email='alvarolemos@ufmg.br',
-    install_requires=['numpy', 'tensorflow', 'scikit-multiflow'],
+    install_requires=['tensorflow', 'scikit-multiflow'],
 )
